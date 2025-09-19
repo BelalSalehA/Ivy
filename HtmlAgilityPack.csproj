@@ -13,7 +13,10 @@
     <EmbeddedResource Include="Assets/**/*" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.12.3" />
     <PackageReference Include="Ivy" Version="1.*" />
+    <PackageReference Include="TinyCsvParser" Version="2.7.1" />
+    <PackageReference Include="XLParser" Version="1.7.5" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Apps" />
